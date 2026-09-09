@@ -1,0 +1,31 @@
+<pocketitems>
+    <card type="rune"
+        pickup="0"
+        description="Challenge up + reward up"
+        name="Essence of Lucky"
+        hud="Essence of Lucky_cat-astrophe"
+        achievement=""
+        mimiccharge="5" />
+
+    <!-- Dices capsules -->
+    <card type="object"
+        pickup="2515"
+        description="Smell like tuttifruti"
+        name="Capsule D Broken"
+        hud="Capsule D Broken_cat-astrophe"
+        mimiccharge="5" />
+
+    <card type="object"
+        pickup="2517"
+        description="Smell like lemon"
+        name="Capsule D9"
+        hud="Capsule D9_cat-astrophe"
+        mimiccharge="4" />
+
+    <card type="object"
+        pickup="2518"
+        description="Smell like salt"
+        name="Capsule Eternal D9"
+        hud="Capsule Eternal D9_cat-astrophe"
+        mimiccharge="1" />
+</pocketitems>

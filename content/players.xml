@@ -1,0 +1,37 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/">
+
+    
+    <!-- Lucky -->
+    <!--
+    <player birthright=""
+        name="lucky" skin="character_lucky_normal.png" hp="6"
+        nameimage="playername_lucky.png" 
+        portrait="playerportrait_lucky_normal.png"
+        skinColor="-1"
+        hidden="true"
+    />
+    <player birthright=""
+        name="lucky" skin="character_lucky_bone.png" hp="4"
+        nameimage="playername_lucky.png" 
+        portrait="playerportrait_lucky_bone.png"
+        extraportrait=""
+        skinColor="-1"
+        hidden="true"
+    />
+    <player birthright=""
+        name="lucky" skin="character_lucky_soul.png" armor="4"
+        nameimage="playername_lucky.png" 
+        portrait="playerportrait_lucky_soul.png"
+        skinColor="-1"
+        hidden="true"
+    />-->
+    <player birthright="The dead have risen"
+        name="lucky" skin="character_lucky.png" hp="6"
+        nameimage="playername_lucky.png" 
+        portrait="playerportrait_lucky_soul.png"
+        costumeSuffix="catgirl_lucky"
+        skinColor="-1"
+        hidden="true"
+        noshake="true"
+    />
+</players>

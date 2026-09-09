@@ -1,0 +1,20 @@
+<items gfxroot="gfx/items/cat-astrophe/" version="1" deathanm2="gfx/death items.anm2">
+    <!-- Collectibles Max id 30 -->
+    <!-- free ids :  -->
+    <!-- Gaby Unlocks -->
+    <passive id="0" name="Machinist Hat"
+        description="I like trains"
+        quality="2"
+        craftquality="2"
+        tags="offensive nocantrip"
+        gfx="machinist_hat.png" />
+
+    <trinket id="0" name="Machinist Hat"
+        description="I like trains"
+        quality="2"
+        craftquality="2"
+        tags="offensive nocantrip"
+        gfx="machinist_hat.png" />
+
+    <null id="0" name="Luckys Revive" customtags="revive hiddenrevive" persistent="true" />
+</items>

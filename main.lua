@@ -1,3 +1,7 @@
+CAT_ASTROPHE.DEBUG = true
+
+
+
 if not (CAT_ASTROPHE and REPENTOGON) then
     local mod = RegisterMod("Epiphany Cat-astrophe", 1)
     local font = Font()
@@ -25,7 +29,7 @@ end
 
 
 CAT_ASTROPHE:AddCallback(ModCallbacks.MC_POST_MODS_LOADED, function()
-    if not Epiphany then
+    if not CAT_ASTROPHE.DEBUG and not Epiphany then
 
         CAT_ASTROPHE:AddCallback(ModCallbacks.MC_POST_RENDER, function()
             CAT_ASTROPHE.TextFont:DrawString("Cat-astrophe [Epiphany Edition] is missing Epiphany", 50, 100, KColor(1, 1, 0.2, 1), 0, false)
@@ -35,11 +39,14 @@ CAT_ASTROPHE:AddCallback(ModCallbacks.MC_POST_MODS_LOADED, function()
     end
 end)
 
-CAT_ASTROPHE.Include = function(rute) return require("a_scripts."..rute) end
+CAT_ASTROPHE.Include = function(rute) return include("catgirlepiphany_scripts."..rute) end
 for _, rute in ipairs({
-	--"utils.custom_revive",
-	--"characters._loader",
-	--"unlocks._loader",
+	"utils._loader",
+	"characters._loader",
+	"unlocks._loader",
 }) do
 	CAT_ASTROPHE.Include(rute)
 end
+
+
+CAT_ASTROPHE.CatastrophicEpiphany = true

@@ -33,5 +33,8 @@
         skinColor="-1"
         hidden="true"
         noshake="true"
+        pocketActive="Repressor"
+        bloodytears="true"
+        modcostume="0"
     />
 </players>

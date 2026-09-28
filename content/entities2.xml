@@ -1,0 +1,91 @@
+<entities anm2root="gfx/" version="1" deathanm2="gfx/">
+
+	<entity anm2path="enemies/cat-astrophe/moron1.anm2"
+        name="Moron 1"
+        id="350" variant="100" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron2.anm2"
+        name="Moron 2"
+        id="350" variant="101" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron3 1.anm2"
+        name="Moron 3 (1)"
+        id="350" variant="102" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="0"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron3 2.anm2"
+        name="Moron 3 (2)"
+        id="350" variant="103" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="0"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron3 2.anm2"
+        name="Moron 3 (3)"
+        id="350" variant="104" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="8" numGridCollisionPoints="8" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="10" shutdoors="false" stageHP="0" tags="noreroll">
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" chain="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron4.anm2"
+        name="Moron 4"
+        id="350" variant="105" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron5.anm2"
+        name="Moron 5"
+        id="350" variant="106" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron6.anm2"
+        name="Moron 6"
+        id="350" variant="107" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron7.anm2"
+        name="Moron 7"
+        id="350" variant="108" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron8.anm2"
+        name="Moron 8"
+        id="350" variant="109" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+	<entity anm2path="enemies/cat-astrophe/moron9.anm2"
+        name="Moron 9"
+        id="350" variant="110" friction="1" boss="0" champion="0" baseHP="1" gridCollision="none"
+        collisionMass="100" collisionRadius="13" numGridCollisionPoints="12" portrait="1" collisionDamage="1"
+        reroll="false" shadowSize="16" shutdoors="false" stageHP="0" tags="noreroll">
+            <bestiary anim="Body" overlay="Idle" transform="0,0,1"/>
+            <gibs amount="1" blood="0" bone="0" eye="0" gut="0" large="0" dust="1" />
+    </entity>
+
+</entities>

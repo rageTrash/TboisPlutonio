@@ -13,7 +13,7 @@ Mod:AddPriorityCallback(ModCallbacks.MC_PRE_PLAYERHUD_RENDER_ACTIVE_ITEM, (2^32)
 	if player:GetActiveItem(slot) == Mod.Item.REPRESSOR.ID then
 
 		return {
-			CropOffset=Vector(64 + 32* Mod:RandomInt(0, 5), 0)
+			CropOffset=Vector(64 + 32* Mod:RandomInt(0, 6), 0)
 		}
 	end
 end)

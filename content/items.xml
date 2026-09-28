@@ -21,5 +21,8 @@
         tags="offensive nocantrip"
         gfx="machinist_hat.png" />
 
-    <null id="1" name="Luckys Revive" customtags="revive hiddenrevive" persistent="true" />
+    <null id="1" name="Luckys Revive"
+        cache="damage"
+        customtags="revive hiddenrevive"
+        persistent="true" />
 </items>
